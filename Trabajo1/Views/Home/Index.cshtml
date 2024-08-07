@@ -1,0 +1,106 @@
+﻿@{
+    ViewData["Title"] = "Página de Inicio";
+}
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #d1c4e9; /* Fondo morado claro */
+        color: #4a148c; /* Morado oscuro para el texto */
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #6a1b9a; /* Fondo morado oscuro */
+        text-align: center;
+        color: #ffffff; /* Blanco para el texto en el hero */
+        padding: 0 2rem;
+    }
+
+    .hero-content {
+        background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente para el contenido */
+        padding: 2rem;
+        border-radius: 8px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #ffffff; /* Blanco para el texto en el hero */
+        }
+
+        .hero-content p {
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem;
+            color: #ffffff; /* Blanco para el texto en el hero */
+        }
+
+        .hero-content a {
+            color: #ffffff; /* Blanco para los enlaces */
+            text-decoration: none;
+            font-weight: 500;
+            border: 2px solid #ffffff; /* Borde blanco para el botón */
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+            .hero-content a:hover {
+                background-color: #ffffff; /* Fondo blanco al hacer hover */
+                color: #6a1b9a; /* Morado oscuro al hacer hover */
+            }
+
+    .info-section {
+        background: #ffffff; /* Fondo blanco para la sección de información */
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+
+        .info-section h2 {
+            font-size: 2rem;
+            color: #4a148c; /* Morado oscuro */
+            margin-bottom: 1rem;
+        }
+
+        .info-section p {
+            font-size: 1rem;
+            color: #4a148c; /* Morado oscuro */
+            margin-bottom: 1.5rem;
+        }
+
+        .info-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .info-section li {
+            font-size: 1rem;
+            color: #4a148c; /* Morado oscuro */
+            margin-bottom: 0.5rem;
+        }
+</style>
+
+<div class="hero-section">
+    <div class="hero-content">
+        <h1 class="display-4">¡Explora Nuestros Servicios!</h1>
+        <p>En InnovateX, ofrecemos soluciones personalizadas para potenciar tu negocio al siguiente nivel.</p>
+        <a href="#">Conoce Más</a>
+    </div>
+</div>
+
+<div class="info-section">
+    <h2>¿Quiénes Somos?</h2>
+    <p>En InnovateX, nos especializamos en brindar consultoría y servicios tecnológicos innovadores para empresas de todos los tamaños. Nuestra misión es transformar tus ideas en realidades exitosas.</p>
+    <ul>
+        <li>Consultoría estratégica para negocios.</li>
+        <li>Desarrollo de software a medida.</li>
+        <li>Soporte técnico y mantenimiento continuo.</li>
+    </ul>
+</div>
